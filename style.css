@@ -19,6 +19,69 @@ h1 {
     text-transform: uppercase;
     color: darkslategray;
 }
-
+h3 {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    margin-bottom: 0.25rem;
+}
+.myFld {  /*polje za unos itema */
+    width: 20rem;
+    border: 0.1rem solid black;
+    border-radius: 0.5rem;
+}
+.myFld:active {
+    border: 0.1rem solid darkslategray;
+    border-radius: 1rem;
+}
+.crBtn { /*"create item" gumb */
+    width: 6rem;
+    margin-top: 0.5rem;
+    background-color: rgb(255, 255, 255);
+    color: darkslategray;
+    font-weight: bold;
+    border: 0.15rem solid darkslategray;
+    border-radius: 1rem;
+}
+.crBtn:hover {
+    border: 0.15rem solid rgb(0, 180, 180);
+    color: rgb(0, 180, 180);
+    font-size: 0.8rem;
+}
+.clrBtn { /*"clear all" gumb */
+    height: 1.5rem;
+    width: 5rem;
+    background-color: darkslategray;
+    color: white;
+    font-weight: bold;
+    border: 0.15rem solid rgba(0, 0, 0, 0); 
+    border-radius: 1rem;
+}
+.clrBtn:hover {
+    background-color: rgb(0, 180, 180);
+    color: white;
+    font-weight: bold;
+    border: 0.15rem solid rgba(0, 0, 0, 0); 
+    border-radius: 1rem;
+    font-size: 0.8rem;
+}
+.toDo {  /*tekst novostvorenog itema*/
+    color: darkslategray;
+}
+.delBtn {  /*"delete" gumb novostvorenog itema*/
+    margin: 0.25rem;
+    height: 1.5rem;
+    width: 5rem;
+    background-color: rgb(255, 255, 255);
+    color: darkslategray;
+    font-weight: bold;
+    border: 0.15rem solid darkslategray;
+    border-radius: 1rem; 
+}
+.delBtn:hover {
+    border: 0.15rem solid rgb(0, 180, 180);
+    color: rgb(0, 180, 180);
+    font-size: 0.8rem;
+}
 
 
